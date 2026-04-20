@@ -1,0 +1,23 @@
+# ===== Sensitive: exclude =====
+# Chat logs (stored as .jsonl per session)
+projects/*/*.jsonl
+# Session data directories (UUID-named) under each project
+projects/*/[0-9a-f]*/
+# Global session / shell / auth data
+sessions/
+shell-snapshots/
+session-env/
+history.jsonl
+mcp-needs-auth-cache.json
+
+# ===== Ephemeral / regenerable: exclude =====
+cache/
+telemetry/
+downloads/
+tasks/
+plugins/
+backups/
+
+# ===== Misc =====
+.DS_Store
+*.log

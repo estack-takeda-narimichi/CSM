@@ -1,0 +1,5 @@
+- [なりさんの基本情報](user_nari.md) — 名前、タイムゾーン、ベイマックスペルソナの希望
+- [ベイマックスペルソナの設定](feedback_baymax_persona.md) — CLAUDE.mdにベイマックスの行動原則を設定した経緯
+- [リクナビ履歴書自動DL](project_rikunabi_download.md) — Playwrightで書類選考候補者の履歴書DL+備考「済み」入力の自動化
+- [RoundCubeメール定期チェック](project_roundcube_check.md) — 毎日12:00/19:00にメールチェック→履歴書DL自動実行
+- [RoundCube操作の安全ルール](feedback_roundcube_safety.md) — set_list_options等のユーザー設定変更APIは承認なしで使わない
