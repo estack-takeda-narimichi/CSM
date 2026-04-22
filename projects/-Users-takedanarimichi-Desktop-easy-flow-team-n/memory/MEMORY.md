@@ -4,3 +4,4 @@
 - [RoundCubeメール定期チェック](project_roundcube_check.md) — 毎日12:00/19:00にメールチェック→履歴書DL自動実行
 - [RoundCube操作の安全ルール](feedback_roundcube_safety.md) — set_list_options等のユーザー設定変更APIは承認なしで使わない
 - [タスク追加時はGitHub Issueも作成](feedback_task_github_issue.md) — TaskCreateと併せてestack-inc/team-nにIssueを作る運用
+- [デモ終了後はブラウザを閉じる](feedback_demo_close_browser.md) — 放置ブラウザが次回実行の障害になるので完走後は明示的に閉じる
