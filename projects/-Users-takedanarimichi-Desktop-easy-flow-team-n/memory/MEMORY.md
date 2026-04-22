@@ -5,3 +5,4 @@
 - [RoundCube操作の安全ルール](feedback_roundcube_safety.md) — set_list_options等のユーザー設定変更APIは承認なしで使わない
 - [タスク追加時はGitHub Issueも作成](feedback_task_github_issue.md) — TaskCreateと併せてestack-inc/team-nにIssueを作る運用
 - [デモ終了後はブラウザを閉じる](feedback_demo_close_browser.md) — 放置ブラウザが次回実行の障害になるので完走後は明示的に閉じる
+- [Google Drive MCPの書き込み制約](reference_google_drive_mcp_limits.md) — create_fileのみ、既存Sheets更新不可→Playwrightか手動貼付
